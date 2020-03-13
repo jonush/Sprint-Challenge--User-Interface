@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a critical aspect of building webpages because the HTML tags used tell the page exactly what you want to create/place. These tags give meaning to elements placed on the webpage, but are also extremely useful in allowing other collaborators to easily read and understand your code. It is important to gain an understanding of how semantic HTML tags work so that you can code HTML efficiently.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+(a) The `display: block` property takes up an entire row on the webpage, while the `display: inline` property only takes up as much space as it needs. 
+(b) The `display: block` property **can** take a `width` and `height`, while `display: inline` **cannot**.
 
 3. What are the 4 areas of the box model?
 
+From the inside to the outside, the box model consists of the:
+- content: actual element being placed/used
+- padding: the space "inside" the container/box
+- border: the outline/boundary of the container/box
+- margin: the space outside the container/box
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+For flexbox, `align-items: center` will work on the cross-axis. NOTE: when changing the flex-direction, the cross-axis will change.
+- (ex) with `flex-direction: column` the cross-axis becomes the horizontal axis, not the vertical, so `align-items` will move the element around on the horizontal as opposed to the vertical like with `flex-direction: row`.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a very useful version control tool for working with developers because it allows for simultaneous collaboration when working on projects. The ability to precisely manage which content is pushed to a project allows every developer in a team to work on a software/product at the same time. It allows for merging branches with different versions as well as the ability to revert to previous versions.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
