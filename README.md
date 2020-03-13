@@ -56,7 +56,7 @@ For flexbox, `align-items: center` will work on the cross-axis. NOTE: when chang
 
 5. Explain why git is valuable to a team of developers.
 
-Git is a very useful version control tool for working with developers because it allows for simultaneous collaboration when working on projects. The ability to precisely manage which content is pushed to a project allows every developer in a team to work on a software/product at the same time. It allows for merging branches with different versions as well as the ability to revert to previous versions.
+Git is a very useful version control tool for working with developers because it allows for simultaneous collaboration when working on projects. The ability to precisely manage which content is pushed to a project allows every developer in a team to work on a software/product at the same time. It lets us merge branches with different versions and gives us the ability to revert to previous versions.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
